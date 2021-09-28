@@ -20,7 +20,7 @@ The pivot table sorted campaigns by launch date, looking at the month the kickst
 
 These amounts were plotted on a line chart to visually examine the change between the number of successful, failed, and canceled kickstarters based on the month they launched. 
 
-[line chart screenshot]
+![line chart](Theater_Outcomes_vs_Launch.png)
 
 
 ### Analysis of Outcomes Based on Goals
@@ -32,7 +32,7 @@ To find out if the funding goal had an impact on a campaign's outcome, I created
 
 The percentage of each outcome was calculated and plotted on a line chart which shows the percentage of kickstarters for plays that were successful or failed for each range of the funding goal. Canceled plays are plotted, but there were no canceled kickstarter campaigns for plays in this data set, and so a value of zero appears for all conditions. 
 
-[line chart screenshot]
+![line chart](Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 My first attempt to analyze Outcomes Based on Goals resulted in data that appeared reasonable (that is, no noticeably strange results) but did not match the example given. After careful review of my kickstarter data, I noticed that certain fields were not matching up with the raw data provided. (That is, the goal for a specific fundraiser would be the incorrect value when compared to the unedited spreadsheet). At some point, the fields for goal amounts must have been misaligned, either by human error or due to converting between different versions of Excel (namely, using the online version for part of the assignment and switching back to the desktop version). 
