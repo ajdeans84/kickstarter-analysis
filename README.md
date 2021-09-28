@@ -16,7 +16,7 @@ In order to analyze the campaign success based on launch date, I created a pivot
 
 The pivot table sorted campaigns by launch date, looking at the month the kickstarter was launched, and counted the number of successful, failed, and canceled campaigns (ignoring live campaigns, as we cannot tell at this time if they will be successful or not).
 
-[pivot table screenshot]
+![pivot table](pivot.png)
 
 These amounts were plotted on a line chart to visually examine the change between the number of successful, failed, and canceled kickstarters based on the month they launched. 
 
@@ -24,11 +24,13 @@ These amounts were plotted on a line chart to visually examine the change betwee
 
 
 ### Analysis of Outcomes Based on Goals
-To find out if the funding goal had an impact on a campaign's outcome, I created a table using ranges of $5,000 (less for the two lowest categories). Next, I utilized the COUNTIFS() function to calculate the number of play kickstarters within the funding goal range that were successful, failed, and canceled.  
+To find out if the funding goal had an impact on a campaign's outcome, I created a table using ranges of $5,000 (less for the two lowest categories). Next, I utilized the COUNTIFS( ) function to calculate the number of play kickstarters within the funding goal range that were successful, failed, and canceled.  
 
-[table screenshot]
+![table](chart.png)
 
-[COUNTIFS formula]
+![COUNTIFS formula](formula.png)
+
+*A sample formula for the successful kickstarters with goals between $1000 and $4999.*
 
 The percentage of each outcome was calculated and plotted on a line chart which shows the percentage of kickstarters for plays that were successful or failed for each range of the funding goal. Canceled plays are plotted, but there were no canceled kickstarter campaigns for plays in this data set, and so a value of zero appears for all conditions. 
 
