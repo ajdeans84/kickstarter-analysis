@@ -63,23 +63,29 @@ Using percentage as a guide for comparison also means that in certain conditions
 Our analyses can only answer our questions accurately if the data is accurate and relevant. Some issues with the data and/or our interpretation of it can include the following;
 
 - Currency
+
 When looking at funding goal ranges, all currencies were lumped together and did not filter out based on a conversion rate. PowerGoal had a goal of 100,000 MXN, which is close to $5000 USD. This fundraiser was included in our largest goal range, but really would have been in the second smallest if all currencies were converted or standardized before plotting them.   
 
 - Human Fondness for Rounded Numbers and Cut-Offs for Ranges
+
 There is a tendency for humans to create goals at rounded numbers. That is, people are more likely to set a goal of $50,000 instead of $48,243.87. Having ranges that begin or end at or near these more traditional goal amounts mean that data could easily be considered part of one category or the other. We need careful consideration on if a goal of $50,000 should be lumped with the range ending at $50,000 or starting at $50,000. That is, is the goal more similar to goals slightly smaller or slightly larger than itself? 
 
 - Launch Date vs Deadline
+
 We examined loutcomes based on launch date by looking at the month the kickstarter launched. Given that not all backers will donate the first month, (some people will donate closer to deadline instead of closer to launch date), there can be a difference between examining launch date and deadline. Some may wait to see if a goal is likely to succeed or fail and base their amount of donation off of that. In countries that follow major gift-giving holidays, there can also be a difference in disposable income during different portions of the year, and backers may not be able to donate as much during certain seasons, but could also be encouraged to donate for charitable reasons or in order to deduct donations on their annual tax return. 
 
 This dataset does not tell us every single piece of information we could hope to know about these kickstarters. Some of the things this data is lacking include;
 
 - Demographics of the backers
+
 We have no statistics on what kind of population is donating. There are likely different demographics for people who donate to plays, tabletop games, children's books, and space exploration. We might be able to compare the age or annual salaries of the backers to look for trends in who is donating. If we know who is backing different campaigns, we could start to look for a trend in who to target our advertising to. 
 
 - Fundraiser Efforts
+
 Our data does not indicate the time or finances committed to advertising for the fundraiser. Perhaps success rate is largely based on how the project was communicated to the potential backers, and what information was given to the backers. We see the blurb written for each campaign, but certain kickstarters could be a far-off vision, and others a near-complete product only lacking funding. 
 
 - Reason for cancelation 
+
 The data does not tell us the reason a kickstarter was canceled. Some campaigns may cancel because they do not feel they can meet their goal (perhaps they are close to their deadline with 1% of funding and do not wish to accept additional donations) and give up before the end date, so they would have been a fail. Others may cancel because they met their funding another way (approved for a grant before the deadline, etc) and would count as a success. The canceled kickstarters do not comprise of a significant portion of our data, but including the canceled kickstarters does change the binary dynamic of a success rate. 
 
 
@@ -88,10 +94,13 @@ The data does not tell us the reason a kickstarter was canceled. Some campaigns 
 To get more comparison for what truly makes a kickstarter successful, we could analyze the following using the data we have available;
 
 - Duration of Kickstarter
+
 By taking the difference between the launch date and deadline, we can tell how long a kickstarter ran and see if that has an impact on the potential success of the kickstarter. The number of days could be plotted against the percentage successful vs failed vampaigns to see if longer or shorter campaigns yield more or less successful outcomes. 
 
 - Potential Competition
+
 We could compare the number of similar kickstarters launching in the same year and the same quarter that share the parent category. This would allow us to evaluate if the number of related kickstarters have an impact on the success rate. As individuals may not donate to multiple causes within a short period of time, competing campaigns might reduce a campaign's success. 
 
 - Average Donation 
+
 We have already calculated the average donation based on the pledged amount and the number of backers. This calculation could give us insight into the success rates based on average donations, particularly for low goals compared to high goals. Are campaigns typically more successful when many people give small donations, or when a few people give very large donations?    
